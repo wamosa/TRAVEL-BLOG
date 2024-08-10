@@ -1,0 +1,40 @@
+.travel-guides {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .place-card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .place-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .place-info {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .place-info h3 {
+    margin-top: 0;
+  }
+  
+  .place-info p {
+    margin: 4px 0;
+  }
+  

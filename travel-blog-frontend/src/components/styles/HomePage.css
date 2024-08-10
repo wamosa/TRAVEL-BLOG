@@ -1,0 +1,132 @@
+.homepage {
+    padding: 20px;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero .cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .about, .featured-posts, .popular-destinations, .photo-gallery-preview, .travel-guides-preview, .interactive-map-preview, .contact-us, .social-media-links, .recent-comments {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .posts-grid, .destinations-grid, .gallery-preview, .social-icons, .comments {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .posts-grid .post, .destinations-grid .destination, .gallery-preview img, .social-icons a, .comments blockquote {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .posts-grid .post img, .destinations-grid .destination img, .gallery-preview img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .posts-grid .post h3, .destinations-grid .destination h3 {
+    margin: 10px 0;
+  }
+  
+  .contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-us form div {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .contact-us form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-us form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-us form button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-us form button:hover {
+    background-color: #e55347;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+    .printableArea, .printableArea * {
+      visibility: visible;
+    }
+    .printableArea {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+  }
+    
+  
